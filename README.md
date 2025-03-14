@@ -21,3 +21,6 @@ composer require symfony/maker-bundle --dev
 
 php bin/console make:controller PageController
 ```
+
+Controller : minot-or/src/Controller
+Page : minot-or/templates
