@@ -20,7 +20,7 @@ final class MinotOrController extends AbstractController
     public function home(): Response
     {
         return $this->render('minot_or/index.html.twig', [
-            'controller_name' => 'MinotOrController',
+            'controller_name' => 'HOME',
         ]);
     }
 }
