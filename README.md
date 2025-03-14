@@ -24,3 +24,9 @@ php bin/console make:controller PageController
 
 - Controller : minot-or/src/Controller
 - Page : minot-or/templates
+
+Créer une page et y accéder
+```
+php bin/console make:controller NomDeVotrePage
+{{ path('about') }}
+```
