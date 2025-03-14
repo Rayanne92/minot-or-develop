@@ -1,16 +1,9 @@
-Install PHP
 ```
-PHP INSTALL
-```
-
-MAMP / WAMP
-```
-MAMP WAMP INSTALL
-```
-
-MODIFIER DANS LE FICHIER .ENV LE MDP SQL EN FONCTION DE VOTRE MDP
-```
-LIGNE DATAURL ETCC
+php –v
+composer –v
+cd minot-or
+set prompt= $G
+composer create-project symfony/website-skeleton minot-or
 ```
 
 Accédez au répertoire **"blog"**, puis exécutez la commande suivante pour démarrer le serveur :
