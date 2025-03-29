@@ -26,13 +26,9 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMinotOr" aria-controls="navbarMinotOr" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">Minot'Or</a>
+                <a class="navbar-brand" href="{{ path('minot_or') }}">Minot'Or</a>
                 <div class="collapse navbar-collapse" id="navbarMinotOr">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- Page d'accueil -->
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        </li>
                         <!-- Catalogue des produits -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Catalogue Produits</a>
@@ -48,6 +44,10 @@
                         <!-- Gestion des invendus -->
                         <li class="nav-item">
                             <a class="nav-link" href="#">Invendus</a>
+                        </li>
+                        <!-- À propos -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ path('about') }}">À propos</a>
                         </li>
                         <!-- Contact / Support -->
                         <li class="nav-item">

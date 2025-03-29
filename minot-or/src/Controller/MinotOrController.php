@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Attribute\Route;
 
 final class MinotOrController extends AbstractController
 {
-    #[Route('/minot/or', name: 'app_minot_or')]
+    #[Route('/minot/or', name: 'minot_or')]
     public function index(): Response
     {
         return $this->render('minot_or/index.html.twig', [
@@ -20,7 +20,7 @@ final class MinotOrController extends AbstractController
     public function home(): Response
     {
         return $this->render('minot_or/index.html.twig', [
-            'controller_name' => 'HOME',
+            'controller_name' => 'Accueil',
         ]);
     }
 }
