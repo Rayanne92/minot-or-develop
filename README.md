@@ -1,3 +1,20 @@
+Windows DL :
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+Yes
+
+irm get.scoop.sh | iex
+
+scoop install php
+
+scoop install composer
+
+scoop install symfony-cli
+
+```
+
+
 ```
 php –v
 
