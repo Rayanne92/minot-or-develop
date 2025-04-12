@@ -1,4 +1,4 @@
-Windows DL :
+dWindows DL :
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
@@ -19,6 +19,9 @@ SSL ERROR :
 
 ZIP ERROR :
 ;extension=zip
+
+ERROR PAGE LOAD
+php bin/console importmap:install
 
 ```
 
