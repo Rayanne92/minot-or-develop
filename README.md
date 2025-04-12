@@ -14,6 +14,12 @@ scoop install symfony-cli
 
 C:\Users\Rayanne\Documents\GitHub
 
+SSL ERROR :
+;extension=openssl
+
+ZIP ERROR :
+;extension=zip
+
 ```
 
 
