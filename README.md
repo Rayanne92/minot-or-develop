@@ -12,6 +12,8 @@ scoop install composer
 
 scoop install symfony-cli
 
+C:\Users\Rayanne\Documents\GitHub
+
 ```
 
 
