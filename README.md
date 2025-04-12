@@ -50,6 +50,16 @@ composer require symfony/maker-bundle --dev
 php bin/console make:controller PageController
 ```
 
+
+```
+php bin/console make:controller About
+php bin/console make:controller Contact
+php bin/console make:controller Register
+php bin/console make:controller Services
+php bin/console make:controller Catalog
+php bin/console make:controller Quotation
+```
+
 - Controller : minot-or/src/Controller
 - Page : minot-or/templates
 
