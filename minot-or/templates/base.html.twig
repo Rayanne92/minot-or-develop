@@ -26,33 +26,24 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMinotOr" aria-controls="navbarMinotOr" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="{{ path('minot_or') }}">Minot'Or</a>
+                <a class="navbar-brand" href="{{ path('about') }}">Minot'Or</a>
                 <div class="collapse navbar-collapse" id="navbarMinotOr">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- Catalogue des produits -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catalogue Produits</a>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Accueil</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="{{ path('about') }}">Présentation de la société</a>
+                                <a class="dropdown-item" href="{{ path('services') }}">Services</a>
+                                <a class="dropdown-item" href="{{ path('contact') }}">Contact</a>
+                            </div>
                         </li>
-                        <!-- Gestion des commandes -->
+
+                        <!-- Inscription -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Gestion des Commandes</a>
+                            <a class="nav-link" href="{{ path('register') }}">Inscription</a>
                         </li>
-                        <!-- Livraisons -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Livraisons</a>
-                        </li>
-                        <!-- Gestion des invendus -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Invendus</a>
-                        </li>
-                        <!-- À propos -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ path('about') }}">À propos</a>
-                        </li>
-                        <!-- Contact / Support -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
+
                     </ul>
                     <!-- Formulaire de recherche -->
                     <form class="d-flex" role="search">
